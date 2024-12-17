@@ -1,14 +1,13 @@
 <resources>
     <string name="app_name">LionDriveMobile</string>
-    <string name="logo_name">LogoName here</string>
-    <string name="slogan">Slogan here - slogan there</string>
+    <string name="logo_name">LionDrive</string>
+    <string name="slogan">Езди с уверенностью, живи с комфортом</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
-    <string name="nav_header_title">Android Studio</string>
     <string name="nav_header_subtitle">android.studio@android.com</string>
     <string name="nav_header_desc">Navigation header</string>
 
-    <string name="menu_home">Home</string>
-    <string name="menu_gallery">Gallery</string>
-    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_home">Автопарк</string>
+    <string name="menu_conditions">Условия</string>
+    <string name="menu_contacts">Контакты</string>
 </resources>

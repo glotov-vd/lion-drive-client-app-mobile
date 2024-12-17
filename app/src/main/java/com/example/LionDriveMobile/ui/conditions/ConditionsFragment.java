@@ -1,4 +1,4 @@
-package com.example.LionDriveMobile.ui.gallery;
+package com.example.LionDriveMobile.ui.conditions;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -9,11 +9,10 @@ import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 
 import com.example.LionDriveMobile.R;
-import com.example.LionDriveMobile.databinding.FragmentGalleryBinding;
 
-public class GalleryFragment extends Fragment {
+public class ConditionsFragment extends Fragment {
 
     public View onCreateView(@NonNull LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.fragment_gallery, container, false);
+        return inflater.inflate(R.layout.fragment_conditions, container, false);
     }
 }

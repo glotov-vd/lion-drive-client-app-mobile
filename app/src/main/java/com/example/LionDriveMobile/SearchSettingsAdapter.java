@@ -15,11 +15,11 @@ public class SearchSettingsAdapter extends RecyclerView.Adapter<SearchSettingsAd
     private List<SearchSetting> searchSettings = new ArrayList<SearchSetting>();
 
     public SearchSettingsAdapter() {
-        this.searchSettings.add(new SearchSetting("All cars", R.drawable.ic_menu_camera));
-        this.searchSettings.add(new SearchSetting("Filter", R.drawable.ic_menu_camera));
-        this.searchSettings.add(new SearchSetting("Sorting", R.drawable.ic_menu_camera));
-        this.searchSettings.add(new SearchSetting("Dates", R.drawable.ic_menu_camera));
-        this.searchSettings.add(new SearchSetting("Sales", R.drawable.ic_menu_camera));
+        this.searchSettings.add(new SearchSetting("Фильтр", R.drawable.filter_icon));
+        this.searchSettings.add(new SearchSetting("Сортировка", R.drawable.sort_icon));
+        this.searchSettings.add(new SearchSetting("Типы авто", R.drawable.car_icon));
+        this.searchSettings.add(new SearchSetting("Даты", R.drawable.dates_icon));
+        this.searchSettings.add(new SearchSetting("Скидки", R.drawable.sale_icon));
     }
 
     @NonNull

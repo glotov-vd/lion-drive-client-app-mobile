@@ -19,7 +19,8 @@
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
             app:navigationIcon="@drawable/back_arrow"
-            app:title="@string/logo_name">
+            app:titleTextColor="@color/white"
+            app:title="@string/menu_home">
 
         </androidx.appcompat.widget.Toolbar>
 

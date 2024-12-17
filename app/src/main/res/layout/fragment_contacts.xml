@@ -4,15 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.gallery.GalleryFragment">
-
-    <SeekBar
-        android:id="@+id/seekBar"
-        android:layout_width="172dp"
-        android:layout_height="26dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="164dp"
-        tools:ignore="MissingConstraints" />
+    tools:context=".ui.contacts.ContactsFragment">
 
 </androidx.constraintlayout.widget.ConstraintLayout>
